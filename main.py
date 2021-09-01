@@ -7,9 +7,9 @@ turtle.bgpic(background)
 
 # is_race_on = False
 
-# screen = Screen()
-# screen.setup(width=500, height=400)
-# user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color : ")
+screen = Screen()
+screen.setup(width=500, height=400)
+user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color : ")
 
 # colors = ["red", "blue", "green", "orange", "purple", "yellow"]
 
