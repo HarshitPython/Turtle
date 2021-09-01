@@ -5,7 +5,7 @@ import random
 background = 'racetrack.gif'
 turtle.bgpic(background)
 
-# is_race_on = False
+is_race_on = False
 
 screen = Screen()
 screen.setup(width=500, height=400)
