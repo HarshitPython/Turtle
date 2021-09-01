@@ -2,8 +2,8 @@ from turtle import Turtle, Screen, color
 import turtle
 import random
 
-# background = 'racetrack.gif'
-# turtle.bgpic(background)
+background = 'racetrack.gif'
+turtle.bgpic(background)
 
 # is_race_on = False
 
