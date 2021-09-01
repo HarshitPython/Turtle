@@ -1,6 +1,6 @@
-# from turtle import Turtle, Screen, color
-# import turtle
-# import random
+from turtle import Turtle, Screen, color
+import turtle
+import random
 
 # background = 'racetrack.gif'
 # turtle.bgpic(background)
