@@ -18,12 +18,12 @@ user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win
 
 # all_turtles= []
 
-# for turtle_index in range(6):
-#     new_turtle = Turtle(shape="turtle")
-#     new_turtle.color(colors[turtle_index])
-#     new_turtle.penup()
-#     new_turtle.goto(x=-230, y=y_positions[turtle_index])
-#     all_turtles.append(new_turtle)
+for turtle_index in range(6):
+    new_turtle = Turtle(shape="turtle")
+    new_turtle.color(colors[turtle_index])
+    new_turtle.penup()
+    new_turtle.goto(x=-230, y=y_positions[turtle_index])
+    all_turtles.append(new_turtle)
 
 # if user_bet:
 #     is_race_on = True
