@@ -30,14 +30,14 @@ for turtle_index in range(6):
 
 # while is_race_on:
     
-#     for turtle in all_turtles:
-#         if turtle.xcor() > 220:
-#             is_race_on = False
-#             winning_color = turtle.pencolor()
-#             if winning_color == user_bet:
-#                 print(f"Your have won. {winning_color} is the winner!")
-#             else:
-#                 print(f"You have lost. {winning_color} is the winner!")
+    for turtle in all_turtles:
+        if turtle.xcor() > 220:
+            is_race_on = False
+            winning_color = turtle.pencolor()
+            if winning_color == user_bet:
+                print(f"Your have won. {winning_color} is the winner!")
+            else:
+                print(f"You have lost. {winning_color} is the winner!")
         
 #         rand_distance = random.randint(0,10)
 #         turtle.forward(rand_distance)
