@@ -43,4 +43,4 @@
 #         turtle.forward(rand_distance)
 
 
-# screen.exitonclick()
+screen.exitonclick()
